@@ -1,0 +1,22 @@
+.content {
+    height: 100vh;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 80%;
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+
+@media (max-width: 500px) {
+ .list {
+    height: auto;
+ }
+}
